@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "vyom.okasiphoneproapp.iconchangesample"
+    namespace = "com.example.iconchangesample"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "vyom.okasiphoneproapp.iconchangesample"
+        applicationId = "com.example.iconchangesample"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

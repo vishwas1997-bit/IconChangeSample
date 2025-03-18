@@ -1,5 +1,4 @@
-package vyom.okasiphoneproapp.iconchangesample
-
+package com.example.iconchangesample
 import androidx.annotation.DrawableRes
 
 data class AppIcon(
@@ -12,22 +11,22 @@ data class AppIcon(
 val appIcons : List<AppIcon> = listOf(
     AppIcon(
         id = "default",
-        component = "vyom.okasiphoneproapp.iconchangesample.MainActivity",
+        component = "com.example.iconchangesample.MainActivity",
         foregroundResource = R.mipmap.ic_launcher_default
     ),
     AppIcon(
         id = "smile",
-        component = "vyom.okasiphoneproapp.iconchangesample.MainActivitySmile",
+        component = "com.example.iconchangesample.MainActivitySmile",
         foregroundResource = R.mipmap.ic_launcher_smile
     ),
     AppIcon(
         id = "tongue",
-        component = "vyom.okasiphoneproapp.iconchangesample.MainActivityTongue",
+        component = "com.example.iconchangesample.MainActivityTongue",
         foregroundResource = R.mipmap.ic_launcher_tongue
     ),
     AppIcon(
         id = "sad",
-        component = "vyom.okasiphoneproapp.iconchangesample.MainActivitySad",
+        component = "com.example.iconchangesample.MainActivitySad",
         foregroundResource = R.mipmap.ic_launcher_sad
     )
 )

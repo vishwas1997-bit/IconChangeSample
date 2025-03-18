@@ -1,4 +1,4 @@
-package vyom.okasiphoneproapp.iconchangesample
+package com.example.iconchangesample
 
 import org.junit.Test
 
